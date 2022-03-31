@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Roboto:wght@100&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0px; 
+}
+
+body{
+    background-image: url('../img/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 115% -5%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*---HEADER---*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 10%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin-left: 28px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #242E52;
+}
+
+a button{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    background: rgb(243, 96, 59);
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    margin: 28px 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+}
+
+a button:hover{
+    cursor: pointer;
+    background-color:  rgb(236, 152, 131);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+header div {
+    display: none;
+}
+
+/*---MAIN---*/
+
+/*---Home---*/
+
+.home{
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.home .fraseHome{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 40%;
+}
+
+.home .fraseHome h1{
+    font-weight: 700 bold;
+    width: 100%;
+    font-size: 3.625rem;
+    line-height: 4.125rem;
+    color: #232C50;
+}
+
+.home .fraseHome p{
+    width: 80%;
+    margin:28px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B3B2B7;
+    letter-spacing: -0.01em;
+
+}
+
+.home .graphics img{
+    width: 100%
+}
+
+
+/*---Section About us---*/
+
+.aboutUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 129px;
+}
+
+.aboutUs .aboutUsMain{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 40%;
+    left: 165px;
+    margin-bottom: 50px;
+}
+
+.aboutUs .aboutUsMain h3{
+    font-weight: 700 bold;
+    width: 100%;
+    font-size: 2.25rem;
+    line-height: 114.6%;
+    color: #232851;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutUs .aboutUsMain p{
+    width: 80%;
+    margin-top: 36px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B3B2B7;
+    letter-spacing: -0.01em;
+}
+
+.aboutUs .aboutUsList{
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    padding: 0px;
+} 
+
+.aboutUsListNumber{
+    display: flex;
+}
+
+.aboutUs .aboutUsList .aboutUsListNumber span{
+    padding: 10px 25px;
+    width: 70px;
+    height: 43px;
+    background: #F3603B;
+    border-radius: 30px;
+    margin: 0px 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.aboutUs .aboutUsList .aboutUsListNumber h5{
+    font-weight: 700;
+    font-size: 16px;
+    color: #323851;
+    padding-top: 10px;
+}
+
+.aboutUs .aboutUsList p{
+    font-weight: 500;
+    align-items: flex-start;
+    font-size: 16.2984px;
+    line-height: 26px;
+    color: #B3B2B7;
+    letter-spacing: -0.01em;
+    padding-left: 21%;
+    margin-bottom: 27px;
+}
+
+/*--- Section Testimonials---*/
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5%;
+    margin-top: 129px;
+    margin-bottom: 180px;
+}
+.testimonials div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 74px;
+}
+
+.testimonials h3{
+    height: 61px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    color: #242E53;
+}
+
+.testimonials article{
+    width: 32%;
+    background-color:#FAFAFA;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.testimonials article div img{
+    position: absolute;
+    margin-bottom: 150px;
+    width: 100px;
+    margin-left: calc(50% - 50px);
+}
+
+.testimonials article h5{
+    margin-bottom:21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+    color: #3F4868;
+    text-align: center;
+}
+
+.testimonials article p{
+    font-size: 16px;
+    line-height: 156.6%;
+    text-align: center;
+    color: #B9B9C1;
+    margin-bottom: 10px;
+}
+
+.testimonials .photoGallery{
+    display: none;
+}
+
+
+/*---Section preFooter---*/
+
+.preFooter{
+    background-color: #B3B2B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px;
+    height: 224px;
+    left: 0px;
+    top: 0px;
+    flex-wrap: wrap;
+    background: #F3613C;
+}
+
+.preFooter h3{
+    width: 470px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.preFooter a button{
+    background-color: green;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #F3603B;
+}
+
+/*---Footer---*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 247px;
+    padding-left: 170.88px;
+    padding-right: 165px;
+    background: #1E1E26;
+}
+
+footer .footerLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 247px;    
+}
+
+footer .footerCenter{
+    display: flex;
+    align-items: flex-start;
+    width: 392px;
+    justify-content: space-between;
+    padding: 52px 0px;
+    height: 247px;    
+}
+
+footer .footerRight{
+    display: flex;
+    flex-direction: column;
+    height: 247px; 
+    padding: 53px 0px;
+
+}
+
+footer .footerLeft p{
+    display: none;
+}
+
+footer .footerLeft .img{
+    margin: 63px 0px
+}
+
+footer .footerLeft .redes{
+    display: flex;
+    justify-content: space-between;
+    width: 153.89px;
+    height: 22.05px;
+}
+
+footer .footerCenter nav ul li{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 13px;
+}
+
+footer .footerCenter nav ul li a{
+    color: #cfc0c0;
+}
+
+footer .footerCenter nav ul li a:hover{
+    color: #F3603B;
+}
+
+/*---Form---*/
+
+footer .footerRight form{
+    display: flex;
+}
+
+footer .footerRight form input{
+    width: 201px;
+    height: 44px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+footer .footerRight form button{
+    width: 63px;
+    border: none;
+    height: 44px;
+    background: rgb(243, 96, 59);
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    margin-left: 4px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+footer .footerRight form button:hover{
+    cursor: pointer;
+    background-color:  rgb(236, 152, 131);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer .footerRight div p{
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #cfc0c0;
+    padding-top: 70px;
+}
+
+
+/*---MediaQuerys---(vp: 375px)*/
+
+@media (max-width: 1000px) {
+    
+    html{
+        font-size: 9px;
+    }
+    
+    body{
+        background: none;
+    }
+
+    /*---HEADER---*/
+    
+    header nav {
+        display: none;
+    }
+
+    header a {
+        display: none;
+    }
+
+    header div{
+        display: inline;
+    }
+
+    /*---MAIN---*/
+
+    /*---Home---*/
+    
+    main .home .graphics{
+        order:-1;
+    }
+
+    .home{
+        padding: 0 3%;
+    }
+
+    .home .fraseHome{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .home .fraseHome p{
+        font-size: 14px;
+    }
+
+    .home .fraseHome h1{
+        text-align: center;
+    }
+
+    /*---Section About us---*/
+
+    .aboutUs{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        margin-top: 70px;
+    }
+
+    .aboutUs .aboutUsMain{
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutUs .aboutUsMain h3{
+        font-size: 28px;
+    }
+
+    .aboutUs .aboutUsMain p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .aboutUs .aboutUsList{
+        width: 100%;
+    }
+
+    .aboutUs .aboutUsList .aboutUsListNumber{
+        background-color: rgb(255, 239, 234);
+    }
+
+    .aboutUs .aboutUsList .aboutUsListNumber span{
+        margin: 0px;
+    }
+
+    .aboutUs .aboutUsList .aboutUsListNumber h5{
+        padding-left: 20px;
+    }
+
+    .aboutUs .aboutUsList p{
+        text-align: start;
+        font-size: 14px;
+        padding: 0px;
+        padding-left: 4px;
+        margin-top: 10px;
+    }
+
+    /*--- Section Testimonials---*/
+
+    .testimonials{
+        margin-top: 70px;
+        margin-bottom: 90px;
+    }
+
+    .testimonials h3{
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .testimonials article{
+        width: 100%;
+    }
+
+    .testimonials article:nth-child(2n - 1){
+        display: none;
+    }
+    
+    .testimonials .photoGallery{
+        display: flex;
+        color: #F3603B;
+    }
+
+    /*---Section preFooter---*/
+
+    .preFooter{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        padding: 20% 3%;
+    }
+
+    .preFooter h3{
+        margin-bottom: 40px;
+    }
+
+    /*---Footer---*/
+    
+    footer{
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .footerLeft{
+        width: 100%;
+        order: 1;
+        flex-direction: column-reverse;
+    }
+
+    footer .footerLeft .redes{
+        width: 70%;
+    }
+
+    footer .footerLeft p{
+        display: unset;
+        color: #cfc0c0;
+        font-size: 12px;
+    }
+
+    footer .footerRight{
+        order: -1;
+        padding: 5%;
+        height: 100px;
+    }
+
+    footer .footerRight p{
+        display: none;
+    }   
+
+    footer .footerRight form input {
+        width: 230px;
+    }
+
+    footer .footerRight form button {
+        width: 75px;
+    }
+
+    footer .footerCenter{
+        width: 100%;
+        justify-content: space-between;
+        padding: 10%;
+    }
+
+    footer .footerCenter nav li a{
+        font-size: 14px;
+    }
+
+}
+
+
